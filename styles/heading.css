@@ -1,0 +1,59 @@
+.heading {
+	background-color: rgb(246, 244, 242);
+	display: flex;
+}
+.title-container {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 80px;
+	flex: 1;
+}
+.menu-container {
+	display: flex;
+	justify-content: end;
+	align-items: start;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+.menu-button {
+	border: none;
+	background-color: rgb(246, 244, 242);
+	cursor: pointer;
+}
+.menu-icon {
+	height: 30px;
+	transition: 0.2s;
+}
+.menu-icon:hover {
+	height: 32px;
+}
+h1 {
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	margin: 0;
+	font-size: 20px;
+}
+.job {
+	color: #402924;
+	margin-left: 2px;
+}
+@media (min-width: 650px) {
+	.title-container {
+		margin-left: 40px;
+	}
+	.menu-container {
+		margin-right: 40px;
+	}
+	.menu-icon {
+		height: 32px;
+	}
+	.menu-icon:hover {
+		height: 38px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	.job {
+		margin-left: 4px;
+	}
+}
