@@ -1,7 +1,6 @@
 .content {
 	display: flex;
 	flex-direction: row;
-	
 }
 .side-section {
 	width: 30px;
@@ -72,18 +71,6 @@
 @media (min-width: 550px) {
 	.side-section {
 		width: 40px;
-	}
-	.middle-section {
-		width: 0px;
-		display: none;
-	}
-	.middle-section-wide {
-		display: flex;
-		flex: 1;
-		align-items: center;
-		height: 430px;
-		background-color: rgb(204, 192, 186);
-		justify-content: center;
 	}
 	.bottom {
 		padding-left: 40px;

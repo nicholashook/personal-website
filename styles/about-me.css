@@ -23,15 +23,6 @@
 	flex-direction: column;
 	align-items: center;
 }
-.entry-title {
-	font-size: 24px;
-}
-.entry-employer {
-	font-size: 14px;
-	margin-top: 4px;
-	font-style: italic;
-	margin-bottom: 8px;
-}
 .description {
 	margin-top: 8px;
 	tab-size: 4;
@@ -50,9 +41,5 @@
 	}
 	.description{
 		max-width: 650px;
-	}
-	.entry-employer {
-		margin-bottom: 12px;
-		line-height: 24px;
 	}
 }
